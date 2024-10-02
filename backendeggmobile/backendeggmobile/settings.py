@@ -29,7 +29,8 @@ ALLOWED_HOSTS = [
     'f000-2001-fb1-49-f75a-d813-723e-380b-83cb.ngrok-free.app',
     '127.0.0.1',
     'localhost',
-    'www.agtechai.in.th'
+    'www.agtechai.in.th',
+    'agtechai.in.th'
     
 ]
 

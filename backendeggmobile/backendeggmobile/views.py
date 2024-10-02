@@ -56,15 +56,15 @@ def mainprocess(request):
                         # print(f"Base64 Encoded Image Data: {image_data[:100]}...")
                           
                         response_message = {
-                        'totalEgg': 4,
-                        'fertile': 10,
-                        'infertile': 20,
+                        'totalEgg': 30,
+                        'fertile': 20,
+                        'infertile': 10,
                         'result': result,
                         'prediction': '18',
                         'replyToken': reply_token,
                         'timestamp': timestamp,
                         'filename': filename,
-                        'imageResult':  f'https://agtechai.in.th/eggmobiledjango/static/images/${filename}',
+                        'imageResult':  f'https://agtechai.in.th/eggmobiledjango/static/images/{filename}',
                         'message': "Process Complete"
                         }
                    
